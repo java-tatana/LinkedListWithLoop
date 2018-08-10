@@ -32,7 +32,6 @@ public class SinglyLinkedListTest {
         }
         result = list.findLoop();
         assertFalse(result.isCycleExists());
-       // assertEquals(null, list.findNextNodeAfterLoop().getElement());
     }
 
     @Test
